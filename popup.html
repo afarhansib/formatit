@@ -4,11 +4,48 @@
 <head>
   <title>Format It!</title>
   <script src="popup.js"></script>
+  <style>
+    button#formatIt {
+		    border: none;
+		    outline: none;
+		    padding: 0.5rem;
+		    display: block;
+		    margin-top: 0.5rem;
+		    text-transform: uppercase;
+		    width: 100%;
+		    border-radius: 0.25rem;
+		    cursor: pointer;
+		}
+
+		body {
+		    width: 370px;
+		}
+
+		input#rekomendasi {
+		    display: inline;
+		    width: 3rem;
+		    border: none;
+		    padding: 0.5rem 0 0.5rem 0.5rem;
+		    font-size: initial;
+		    font-weight: bold;
+		}
+
+		label {
+		    display: block;
+		    width: 100%;
+		    font-size: initial;
+		}
+
+		button#formatIt:hover {
+		    background-color: hsl(0, 0%, 90%);
+		}
+</style>
 </head>
 
 <body>
   <h1>Format It!</h1>
-  <button id="formatIt">Format prograss peserta!</button>
+  <label for="rekomendasi">Rekomendasi (<span></span>) : <input type="number" value="37" id="rekomendasi"> %</label>
+  <button id="formatIt">Format progress peserta!</button>
 </body>
 
 </html>

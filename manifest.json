@@ -3,7 +3,7 @@
 
   "name": "Format It!",
   "description": "This extension will sort and format student's learning progress on dicoding.com/courseinvitationtokens.",
-  "version": "1.0",
+  "version": "1.2",
   "author": "afarhansib.github.io",
 
   "browser_action":
